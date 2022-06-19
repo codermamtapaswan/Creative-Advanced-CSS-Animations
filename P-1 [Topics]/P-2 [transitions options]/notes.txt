@@ -1,0 +1,33 @@
+
+Transitions options
+<----------------------------->
+•Transition delay
+•Transition timing function
+
+<---------------------------->
+01. transition-timing-function => how the change in the property will occur.
+
+    ease :the change starts slow then go faster then finishes slow
+    linear:the change occurs at the same rate
+    ease-in:the change starts slow then go faster before the end
+    ease-out :the change starts fast then slows down before the end
+    ease-in-out:the change starts slow then go faster then finishes slow
+
+02. transition-delay 
+    
+    •The time before the transition starts
+    •Accepts values in seconds or milliseconds
+<--------------------------------------------------------------------------------------->
+The transform property has four functions that we can use to control how our elements will be displayed and
+those functions are :
+1. the scale function which allows us to resize the elements meaning to increase or decrease their height or width, 
+2. the translate function which allows us to move the element and change its position to any spot on the browser horizontally or vertically, 
+3. the rotate function which allows us to rotate the elements and into the environment by any degree or any number of turns we want and 
+4. this skew function which allows us to skew the elements along theX-axis or the yaxis.
+<-------------------------------------------------------------------------------------------------->
+Transform scale x and the scale function accepts numbers that indicate how much the width
+of the element will change relative to its original width.
+for example:
+if I added two here this will make the image with increased to twice the original size.
+So if it was one pixels it will be 200 pixels.
+And if I change the two to 1.5 it will be 150 pixels.
